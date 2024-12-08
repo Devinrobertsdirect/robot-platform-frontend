@@ -10,5 +10,6 @@
   </PropertyGroup>
   <ItemGroup>
     <Folder Include="services\" />
+    <Folder Include="src\assets\robots\" />
   </ItemGroup>
 </Project>
