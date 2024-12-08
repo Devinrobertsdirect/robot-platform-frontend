@@ -1,13 +1,57 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
+    <!-- Character encoding for universal compatibility -->
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+
+    <!-- Responsive design for all devices -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
-  </head>
-  <body>
+
+    <!-- Basic SEO -->
+    <title>MinuteMech - Manage and Battle Robots</title>
+    <meta name="description" content="Welcome to MinuteMech, a platform to manage, upgrade, and battle your robots in an interactive online environment." />
+    <meta name="keywords" content="robots, battle, games, technology, MinuteMech" />
+    <meta name="author" content="MinuteMech Team" />
+
+    <!-- Social Sharing Metadata (Open Graph) -->
+    <meta property="og:title" content="MinuteMech - Manage and Battle Robots" />
+    <meta property="og:description" content="Join MinuteMech to manage and upgrade your robots and battle other players in exciting competitions." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://minutemech.netlify.app" />
+    <meta property="og:image" content="https://minutemech.netlify.app/assets/social-preview.png" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="MinuteMech - Manage and Battle Robots" />
+    <meta name="twitter:description" content="Manage, upgrade, and battle your robots in MinuteMech!" />
+    <meta name="twitter:image" content="https://minutemech.netlify.app/assets/social-preview.png" />
+
+    <!-- Favicon -->
+    <link rel="icon" href="/favicon.ico" />
+
+    <!-- Preload for Performance -->
+    <link rel="preload" href="/assets/logo.svg" as="image" />
+    <link rel="preload" href="/assets/main.css" as="style" />
+
+    <!-- Main CSS File -->
+    <link rel="stylesheet" href="/assets/main.css" />
+
+    <!-- Google Fonts (Optional) -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <!-- Root element where React app is rendered -->
     <div id="root"></div>
+
+    <!-- Load the JavaScript bundle -->
     <script type="module" src="/src/main.jsx"></script>
-  </body>
+
+    <!-- Fallback for older browsers (Optional) -->
+    <script>
+        if (!window.fetch) {
+            document.write('<script src="https://cdn.polyfill.io/v3/polyfill.min.js"><\/script>');
+        }
+    </script>
+</body>
 </html>
