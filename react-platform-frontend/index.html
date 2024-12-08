@@ -44,10 +44,10 @@
     <!-- Root element where React app is rendered -->
     <div id="root"></div>
 
-    <!-- Load the JavaScript bundle -->
+    <!-- Vite dynamically injects the correct bundle in production -->
     <script type="module" src="/src/main.jsx"></script>
 
-    <!-- Fallback for older browsers (Optional) -->
+    <!-- Fallback for older browsers -->
     <script>
         if (!window.fetch) {
             document.write('<script src="https://cdn.polyfill.io/v3/polyfill.min.js"><\/script>');
@@ -55,3 +55,4 @@
     </script>
 </body>
 </html>
+
