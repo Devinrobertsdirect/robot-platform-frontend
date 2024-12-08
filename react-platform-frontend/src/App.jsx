@@ -103,23 +103,31 @@ function App() {
                     <div className="steps-grid">
                         <div className="step">
                             <img src={Step1} alt="Step 1" />
-                            <h3>Create Your Bot</h3>
-                            <p>Design and 3D print your custom bot companion.</p>
+                            <div className="step-content">
+                                <h3>Create Your Bot</h3>
+                                <p>Design and 3D print your custom bot companion.</p>
+                            </div>
                         </div>
                         <div className="step">
                             <img src={Step2} alt="Step 2" />
-                            <h3>Scan the QR Code</h3>
-                            <p>Register your bot in the game by scanning its unique QR code.</p>
+                            <div className="step-content">
+                                <h3>Scan the QR Code</h3>
+                                <p>Register your bot in the game by scanning its unique QR code.</p>
+                            </div>
                         </div>
                         <div className="step">
                             <img src={Step3} alt="Step 3" />
-                            <h3>Log In</h3>
-                            <p>Access your personalized dashboard and prepare for battle.</p>
+                            <div className="step-content">
+                                <h3>Log In</h3>
+                                <p>Access your personalized dashboard and prepare for battle.</p>
+                            </div>
                         </div>
                         <div className="step">
                             <img src={Step4} alt="Step 4" />
-                            <h3>Enter the Arena</h3>
-                            <p>Test your bot’s skills in thrilling battles!</p>
+                            <div className="step-content">
+                                <h3>Enter the Arena</h3>
+                                <p>Test your bot's skills in thrilling battles!</p>
+                            </div>
                         </div>
                     </div>
                 </motion.div>
@@ -194,7 +202,7 @@ function App() {
             {/* Footer */}
             <footer className="footer">
                 <div className="container">
-                    <p>© 2024 Game Name. All rights reserved.</p>
+                    <p>ï¿½ 2024 Game Name. All rights reserved.</p>
                 </div>
             </footer>
         </div>
